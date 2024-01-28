@@ -1,3 +1,6 @@
+- name: set host name
+  ansible.builtin.shell: set_hostname mysql
+
 - name: disable mysql 8 version
   ansible.builtin.shell: dnf module disable mysql -y
 
