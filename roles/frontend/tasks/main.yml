@@ -1,5 +1,5 @@
 - name: set host name
-  ansible.builtin.shell: set_hostname frontend
+  ansible.builtin.shell: set-hostname frontend
 
 - name: install nginx
   ansible.builtin.dnf:
